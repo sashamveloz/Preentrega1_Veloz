@@ -1,0 +1,29 @@
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3{
+font-size: large;
+}
+
+.imgpeli {
+    width: 18vw;
+    height: 30vw;
+    padding: 10px;
+}
+
+.peliculas {
+    display: flex;
+    width: 25vw;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 10px;
+}
+
+.boxpeli {
+    
+}

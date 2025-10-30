@@ -3,14 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador Cine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Cinema</title>
 </head>
 <body>
-<h1>
-    Bienvenid@ al simulador de Cine.
-    En este simulador podras realizar el proceso de compra de entradas para las peliculas actualmente disponibles.
-    Disfruta!
-</h1>
+<header>
+<h1>Cartelera Cinema</h1>
+
+</header>
+
+<main>
+<h2>Películas disponibles</h2>
+
+<section class="peliculas">
+    <article class="boxpeli">
+        <img src="./assets/img/elpadrino.jpeg" alt="" class="imgpeli">
+        <h3>El Padrino</h3>
+        <label>Cantidad de entradas: <input type="number" class="cantidad" min="1" value="1"></label>
+    <button class="btnagregar">Agregar al carrito</button>
+    </article>
+
+    <article class="boxpeli">
+        <img src="./assets/img/comoentrenaratudragon.jpg" alt="" class="imgpeli">
+        <h3>Como entrenar a tu Dragon</h3>
+        <label>Cantidad de entradas:<input type="number" class="cantidad" min="1" value="1"> </label>
+    <button class="btnagregar" data-id=>Agregar al carrito</button>
+</article>
+
+    <article class="boxpeli">
+        <img src="./assets/img/orgulloyprejuicio.jpg" alt="" class="imgpeli">
+        <h3>Orgullo y Prejuicio</h3>
+    <label>Cantidad de entradas:<input type="number" class="cantidad" min="1" value="1"> </label>
+    <button class="btnagregar">Agregar al carrito</button>
+</article>
+
+    <article class="boxpeli">
+        <img src="./assets/img/avatar.jpeg" alt="" class="imgpeli">
+        <h3>Avatar 2</h3>
+    <label>Cantidad de entradas:<input type="number" class="cantidad" min="1" value="1"> </label>
+    <button class="btnagregar">Agregar al carrito</button>
+</article>
+
+    <article class="boxpeli">
+        <img src="./assets/img/elconjuro.jpg" alt="" class="imgpeli">
+        <h3>El Conjuro 4</h3>
+    <label>Cantidad de entradas:<input type="number" class="cantidad" min="1" value="1"> </label>
+    <button class="btnagregar">Agregar al carrito</button>
+</article>
+
+</main>
+
+<footer>
+
+</footer>
 <script src="cine.js"></script>
 
 </body>
